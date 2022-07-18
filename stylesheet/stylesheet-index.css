@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* Página principal */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg,  #7f38a8 16.62%, #41145c 26.62%, rgb(30, 30, 66) 65.61%);
+}
+
+/* Cabeçalho */
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 84px;
+    background-color: #e2c8ec;
+    border-radius: 50%;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;    
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Seção 1 - Apresentação do site */
+
+.conteudo{
+    margin-bottom: 96px;
+    border-top: 0.4px solid #fff2ef;
+    padding: 36px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size:  36px;
+    color: #fff2e7;
+    align-items: center;
+}
+
+.conteudo-principal-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ecd6c4;
+
+}
+
+/* Seção 2 - Dicas */
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 48px;
+}
+
+.div-secundario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.conteudo-secundario-escrito-titulo{
+    font-family: 'Righteous', coursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff2e7;
+    align-items: center;
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    flex: 1 1 150px;
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    color: #fff2e7;
+    
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.conteudo-principal-escrito-paragrafo{
+    display: flex;
+    align-items: center;
+
+}
+
+.dica1{
+    border-left: 3px solid #4895ff;
+}
+
+.dica2{
+    border-left: 3px solid #3bb54a;
+}
+
+.dica3{
+    border-left: 3px solid #b3404a;
+}
+
+/* Seção 3 - Ação do site */
+
+.conteudo-terceiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 48px;    
+}
+
+.conteudo-terceiro-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size:  36px;
+    color: #fff2e7;
+    align-items: center;
+}
+
+.conteudo-terceiro-subtitulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size:  14px;
+    color: #fff2e7;
+    align-items: center;
+}
+
+.conteudo-terceiro-botao{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2f2325;
+}
+
+.conteudo-terceiro-botao:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+
+/* Rodape - footer */
+
+.rodape{
+    padding: 24px;
+    border-top: 0.4px solid #fff2e7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.rodape-image{    
+    height: 36px;
+}
+
+.rodape rodape-image{
+    justify-content: flex-start;
+}
+
+.rodape rodape-assinatura{
+    align-items: flex-end;
+}
+
+
+
